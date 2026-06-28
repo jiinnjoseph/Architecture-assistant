@@ -7,9 +7,6 @@ from diffusers import AutoPipelineForText2Image
 
 load_dotenv()
 
-HF_TOKEN = os.getenv("HF_TOKEN")
-
-client = InferenceClient(token=HF_TOKEN)
 
 
 def load_image_model():
