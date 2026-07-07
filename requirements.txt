@@ -1,0 +1,8 @@
+streamlit
+openai
+dotenv
+huggingface_hub
+torch
+diffusers
+transformers
+torchvision
