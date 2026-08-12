@@ -10,7 +10,7 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 
 
 client = InferenceClient(
-    api_key=HF_TOKEN,
+    token=HF_TOKEN,
     provider="auto",
 )
 
