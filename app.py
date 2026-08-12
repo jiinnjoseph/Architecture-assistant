@@ -1,8 +1,6 @@
 import streamlit as st
-import torch
 from dotenv import load_dotenv
 import os
-from diffusers import AutoPipelineForText2Image
 from huggingface_hub import InferenceClient
 
 
