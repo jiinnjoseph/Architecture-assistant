@@ -11,7 +11,6 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 
 client = InferenceClient(
     token=HF_TOKEN,
-    provider="auto",
 )
 
 IMAGE_MODEL = "black-forest-labs/FLUX.1-schnell"
