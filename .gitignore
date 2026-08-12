@@ -1,0 +1,17 @@
+# Virtual environments
+env/
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / API keys
+.env
+
+# macOS
+.DS_Store
+
+# Secret files :
+.streamlit/secrets.toml
